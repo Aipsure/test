@@ -1,5 +1,4 @@
-<script>
-  function setCookie(name, value) {
+function setCookie(name, value) {
     var Days = 1;
     var exp = new Date();
     exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
@@ -21,4 +20,3 @@ setCookie("flash_seesion", "flash_cookies");
 return false;
 }
 setTimeout("chkcookies()","5000");
-</script>
